@@ -15,24 +15,33 @@ Linear Regression is a supervised machine learning algorithm used to model the r
 ### 🔹 Simple Linear Regression
 
 * Uses **one input feature**
-* Example: Experience → Salary
+* Example: *Experience → Salary*
 
-📌 Formula:
-$$
-Y = mX + c
-$$
+📌 **Formula**
+
+> **Y = mX + c**
+
+* **Y** → Predicted Salary
+* **X** → Years of Experience
+* **m** → Slope (increase per year)
+* **c** → Intercept (base value)
 
 ---
 
 ### 🔹 Multiple Linear Regression
 
 * Uses **multiple input features**
-* Example: Experience + Education → Salary
+* Example: *Experience + Education → Salary*
 
-📌 Formula:
-$$
-Y = m_1X_1 + m_2X_2 + \dots + c
-$$
+📌 **Formula**
+
+> **Y = m₁X₁ + m₂X₂ + m₃X₃ + ... + c**
+
+* **X₁, X₂, X₃** → Input features
+* **m₁, m₂, m₃** → Weights
+* **c** → Intercept
+
+---
 
 ---
 
